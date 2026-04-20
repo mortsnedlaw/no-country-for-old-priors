@@ -1,0 +1,21 @@
+{
+  "log_directory": "/var/log/pacs",
+  "database_path": "./pacs_analysis.db",
+  "output_directory": "./reports",
+  "days": 14,
+  "business_hours": {
+    "start_hour": 7,
+    "start_minute": 0,
+    "end_hour": 17,
+    "end_minute": 0
+  },
+  "pacs_config": {
+    "host": "pacs.hospital.local",
+    "port": 11112,
+    "ae_title": "NCFOP",
+    "called_ae_title": "PACS",
+    "timeout": 30
+  },
+  "throttle_delay": 0.1,
+  "include_patient_study_list": true
+}
